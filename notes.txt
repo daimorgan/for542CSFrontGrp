@@ -160,3 +160,14 @@ in this session there's a request to connect to the share:
 and create the file
 windows\system32\hythonize.exe (frame 137820 in the pcap)
 there are a lot of files, some very intresting, in the session.
+
+
+DM
+lang><author><name>Benny_The_Bull_ (Derrick Rozzay)</name><uri>http://twitter.com/Benny_The_Bull_</uri></author></entry><entry><id>tag:sea
+  rch.twitter.com,2005:186654601334890497</id><published>2012-04-02T03:21:39Z</published><link type="text/html" href="http://twitter.com/Mag
+  ic_Taco/statuses/186654601334890497" rel="alternate"/><title>@AquaticWhisper @MelaAkemi Te dije que usaras cajas de Vibranium recubiertas 
+  de Adamantium para guardarlas... u.u</title><content type="html">@&lt;a class=" " href="http://twitter.com/AquaticWhisper"&gt;AquaticWhisp
+  er&lt;/a&gt; @&lt;a class=" " href="http://twitter.com/MelaAkemi"&gt;MelaAkemi&lt;/a&gt; Te dije que usaras cajas de Vibranium recubiertas
+   de &lt;em&gt;Adamantium&lt;/em&gt; para guardarlas... u.u</content><updated>2012-04-02T03:21:39Z</updated><link type="image/png" href="ht
+  tp://a0.twimg.com/profile_images/2011282698/hand_light_normal.jpg" rel="image"/> 
+
