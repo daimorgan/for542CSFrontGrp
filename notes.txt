@@ -8,3 +8,6 @@ Summary: total flows: 97045, total bytes: 582141298, total packets: 1158546, avg
 Time window: 2012-04-02 21:52:19 - 2012-04-06 19:28:02
 Total flows processed: 323982, Blocks skipped: 0, Bytes read: 15578112
 Sys: 0.044s flows/second: 7359046.0  Wall: 0.043s flows/second: 7530437.2 
+
+
+DM 
